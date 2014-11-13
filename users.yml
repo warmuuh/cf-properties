@@ -1,0 +1,11 @@
+test: foobar
+
+server:
+    port: 8080
+    
+eureka.client.serviceUrl.defaultZone: http://meta.192.168.32.152.xip.io/eureka/
+spring.boot.admin.url: http://admin.192.168.32.152.xip.io/eureka/
+info.id: users
+
+
+geo.url: http://GEO
