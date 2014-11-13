@@ -2,6 +2,13 @@
 server:
     port: 8082
     
-eureka.client.serviceUrl.defaultZone: http://meta.192.168.32.152.xip.io/eureka/
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://meta.192.168.32.152.xip.io/eureka/
+    instance:
+        hostname: ${vcap.application.uris[0]}
+        
+        
 spring.boot.admin.url: http://admin.192.168.32.152.xip.io/
 info.id: geo
