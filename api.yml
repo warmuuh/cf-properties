@@ -6,7 +6,7 @@ zuul:
             GEO: /geo
 
 eureka.client.serviceUrl.defaultZone: http://meta.192.168.32.152.xip.io/eureka/
-spring.boot.admin.url: http://admin.192.168.32.152.xip.io/eureka/
+spring.boot.admin.url: http://admin.192.168.32.152.xip.io/
 info.id: api
 server:
     port: 8081
