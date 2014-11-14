@@ -9,12 +9,12 @@ zuul:
 eureka:
     client:
         serviceUrl:
-            defaultZone: http://meta.192.168.32.152.xip.io/eureka/
+            defaultZone: http://meta.cfapps.io/eureka/
     instance:
         hostname: ${vcap.application.uris[0]}
         nonSecurePort: 80
 
-spring.boot.admin.url: http://admin.192.168.32.152.xip.io/
+#spring.boot.admin.url: http://admin.192.168.32.152.xip.io/
 info.id: api
 server:
-    port: ${PORT}
+    port: ${PORT:8081}
