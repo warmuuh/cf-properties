@@ -15,4 +15,4 @@ eureka:
 spring.boot.admin.url: http://admin.192.168.32.152.xip.io/
 info.id: api
 server:
-    port: 8081
+    port: ${PORT:8081}
