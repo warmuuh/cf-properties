@@ -3,6 +3,7 @@ zuul:
         mapping: /api
         route:
             USERS: /users
+            MESSAGES: /message
             GEO: /geo
 
 eureka:
